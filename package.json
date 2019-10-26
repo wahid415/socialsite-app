@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node db.js",
     "dev": "start nodemon db --ignore frontend-js --ignore public/ && start webpack --watch"
   },
   "keywords": [],
